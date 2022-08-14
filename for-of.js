@@ -1,0 +1,1 @@
+// For of only work in Array and String
