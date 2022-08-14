@@ -9,6 +9,7 @@ function getAvgNumber(number){
     return avg;
 }
 
-var n = [26, 89, 64, 59, 87, 26, 99, 54, 62, 36, 21, 15, 95]
+var n = [57, 60, 60, 60, 60, 60, 60, 60, 60, 60, 60, 60, 60, 60]
+console.log(n.length);
 var getAvg = getAvgNumber(n);
 console.log(getAvg);
