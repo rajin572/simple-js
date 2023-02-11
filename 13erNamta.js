@@ -1,7 +1,7 @@
-function namta(){
+function namta(n){
     for(var i = 1; i<=10; i++){
-        let result = 13*i;
-        console.log("13 x ", i,"=",result);
+        let result = n*i;
+        console.log(n," x ", i,"=",result);
     }
 }
 namta()

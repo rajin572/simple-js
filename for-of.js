@@ -72,7 +72,7 @@ let peoples = [
 function result (peoples , search){
     let simNames = [];
     for (const people of peoples){
-        // console.log(people);
+        console.log(people);
         if (people.age.toString().includes(search)){
             simNames.push(people)
         }
