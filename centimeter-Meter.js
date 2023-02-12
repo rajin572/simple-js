@@ -1,4 +1,4 @@
-function getMeter (cm){
+function getMeter(cm) {
     let meter = cm / 100;
     return meter
 }

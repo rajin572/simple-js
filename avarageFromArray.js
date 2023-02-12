@@ -1,6 +1,6 @@
-function getAvgNumber(number){
+function getAvgNumber(number) {
     let sum = 0;
-    for (var i = 0; i < number.length; i++){
+    for (var i = 0; i < number.length; i++) {
         const index = i;
         const element = number[index];
         sum += element;

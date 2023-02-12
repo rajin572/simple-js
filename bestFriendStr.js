@@ -1,8 +1,8 @@
-function bestFriend(names){
+function bestFriend(names) {
     let higher = names[0];
-    for (var i = 0; i < names.length; i++){
+    for (var i = 0; i < names.length; i++) {
         const element = names[i];
-        if (element.length > higher.length){
+        if (element.length > higher.length) {
             higher = element
         }
     }
