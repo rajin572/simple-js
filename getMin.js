@@ -1,5 +1,5 @@
-function getMin(hour){
-    return hour*60;
+function getMin(hour) {
+    return hour * 60;
 }
 
 let myHour = 2;
