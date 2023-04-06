@@ -18,21 +18,21 @@
 
 
 
-function oddSum(oddNumber){
+function oddSum(oddNumber) {
     let sum = 0;
-    for (var i = 0; i < oddNumber.length; i++){
+    for (var i = 0; i < oddNumber.length; i++) {
         const index = i;
         let elements = oddNumber[index]
         sum += elements;
     }
     return sum;
 }
-function getOdd(number){
+function getOdd(number) {
     let oddNumber = [];
-    for (var i = 0; i < number.length; i++){
+    for (var i = 0; i < number.length; i++) {
         const index = i;
         let elements = number[index];
-        if (elements%2 !== 0){
+        if (elements % 2 !== 0) {
             oddNumber.push(elements)
         }
     }
