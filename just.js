@@ -47,7 +47,7 @@
 //                 const dieselPerLitre = 114;
 //                 const petrolPerLitre = 130;
 //                 const octanePerLitre = 135;
-            
+
 //                 const dieselprice = dieselQuantity * dieselPerLitre;
 //                 const petrolPrice = petrolQuantity * petrolPerLitre;
 //                 const octanePrice = octaneQuantity * octanePerLitre;
@@ -82,17 +82,17 @@
 //         const reservedBus = 50;
 //         const microBus = 11;
 //         const publicBusTicket = 250;
-       
+
 //         let busRemaining = totalPassenger % reservedBus ;
 //         let microBusRemaining = busRemaining % microBus;
 //         let publicBus = publicBusTicket * microBusRemaining;
-       
+
 //         return publicBus;
 //     }
 //     else{
 //         return "please enter a valid number input"
 //     }
-   
+
 // }
 
 // // UserInput - 50, 55, 112, 235, 365
