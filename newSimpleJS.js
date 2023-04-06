@@ -11,16 +11,16 @@
 // avarege = parseFloat(avarege)
 // console.log(avarege);
 
-function publicBusFare(people){
+function publicBusFare(people) {
     const publicBusTicketPrice = 250;
-    if (typeof people != 'number'){
+    if (typeof people != 'number') {
         let bus = people % 50;
         let microBus = bus % 11;
         let publicBus = microBus;
-        let totalPublicBusTicketPrice = publicBusTicketPrice * publicBus;    
+        let totalPublicBusTicketPrice = publicBusTicketPrice * publicBus;
         return totalPublicBusTicketPrice;
     }
-    else{
+    else {
         return "please enter a number input"
     }
 }

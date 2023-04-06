@@ -1,11 +1,11 @@
-function positiveNumbers(num){
+function positiveNumbers(num) {
     let positive = [];
-    for (var i = 0; i < num.length; i++){
+    for (var i = 0; i < num.length; i++) {
         const element = num[i];
-        if (element >= 0){
+        if (element >= 0) {
             positive.push(element);
         }
-        else{
+        else {
             break;
         }
     }

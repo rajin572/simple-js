@@ -1,5 +1,5 @@
-function myNuber(number){
-    if(number%2 === 0){
+function myNuber(number) {
+    if (number % 2 === 0) {
         return "Even Number"
     }
     return "Odd Number"
