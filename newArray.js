@@ -25,7 +25,7 @@
 // }
 // else{
 //     console.log("you are absent in the exam");
-    
+
 // }
 
 
@@ -57,7 +57,7 @@ var a = 2;
 var b = 5;
 var c = 3;
 
-if (a===b  || a===c || b===c){
+if (a === b || a === c || b === c) {
     console.log("Isosceles triangle")
 }
 else {

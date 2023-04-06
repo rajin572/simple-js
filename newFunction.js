@@ -1,4 +1,4 @@
-function getSingara(money){
+function getSingara(money) {
     var price = 7;
     var giveSingara = money / price;
     giveSingara = parseInt(giveSingara)
