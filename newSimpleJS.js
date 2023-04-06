@@ -4,6 +4,7 @@
 // var economics = 65;
 // var accounting = 99.50;
 
+
 // var totalNumber = math+bangla+management+economics+accounting;
 // console.log(totalNumber);
 // var avarege = totalNumber/5;
