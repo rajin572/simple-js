@@ -99,6 +99,6 @@
 // get elemnet from array 
 
 var frinds = ["rahim", "karim", "shamim", "fahim", "hamim"]
-for (var i = 0; i < frinds.length; i++){
+for (var i = 0; i < frinds.length; i++) {
     console.log("he is my friend and his name is " + frinds[i]);
 } 
