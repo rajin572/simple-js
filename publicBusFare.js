@@ -1,43 +1,43 @@
-function publicBusFare(people){
-    if (typeof people === typeof 0){
+function publicBusFare(people) {
+    if (typeof people === typeof 0) {
 
         const busCapacity = 50;
         const microbusCapacity = 11;
         const publicBusTicketPrice = 250;
-    
-        if (people / busCapacity >=1){
+
+        if (people / busCapacity >= 1) {
             let busNeeded = Math.floor(people / busCapacity)
-            let busPassengers = busCapacity*busNeeded;
+            let busPassengers = busCapacity * busNeeded;
             let remainingPassengers = people - busPassengers;
-    
-            if(remainingPassengers / microbusCapacity >=1){
+
+            if (remainingPassengers / microbusCapacity >= 1) {
                 let microbusNeeded = Math.floor(remainingPassengers / microbusCapacity)
-                let microbusPassengers = microbusCapacity*microbusNeeded;
+                let microbusPassengers = microbusCapacity * microbusNeeded;
                 let remainingPeople = remainingPassengers - microbusPassengers;
-    
-                let totalPublicBusTicketPrice = remainingPeople*publicBusTicketPrice
+
+                let totalPublicBusTicketPrice = remainingPeople * publicBusTicketPrice
                 return totalPublicBusTicketPrice;
             }
-            else{
-                let totalPublicBusTicketPrice = remainingPassengers*publicBusTicketPrice
+            else {
+                let totalPublicBusTicketPrice = remainingPassengers * publicBusTicketPrice
                 return totalPublicBusTicketPrice;
             }
-    
+
         }
-        else if (people / microbusCapacity >=1){
+        else if (people / microbusCapacity >= 1) {
             let microbusNeeded = Math.floor(people / microbusCapacity)
-            let microbusPassengers = microbusCapacity*microbusNeeded;
+            let microbusPassengers = microbusCapacity * microbusNeeded;
             let remainingPeople = people - microbusPassengers;
-    
-            let totalPublicBusTicketPrice = remainingPeople*publicBusTicketPrice
+
+            let totalPublicBusTicketPrice = remainingPeople * publicBusTicketPrice
             return totalPublicBusTicketPrice;
         }
-        else{
-            let totalPublicBusTicketPrice = people*publicBusTicketPrice
+        else {
+            let totalPublicBusTicketPrice = people * publicBusTicketPrice
             return totalPublicBusTicketPrice;
         }
     }
-    else{
+    else {
         return "please enter a number input"
     }
 }

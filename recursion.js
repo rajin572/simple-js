@@ -2,10 +2,10 @@
 // recursion is similar to loop
 
 
-function recurction (i){
-    if (i === 1){
+function recurction(i) {
+    if (i === 1) {
         return 1
     }
-    return i + recurction(i-1);
+    return i + recurction(i - 1);
 }
 console.log(recurction(10));
